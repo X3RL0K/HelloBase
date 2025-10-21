@@ -1,0 +1,15 @@
+{
+  "name": "hello-base",
+  "version": "1.0.0",
+  "description": "Simple 'Hello World' contract on Base blockchain",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "keywords": ["base", "blockchain", "ethereum", "hello world"],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
